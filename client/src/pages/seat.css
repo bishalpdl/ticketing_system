@@ -1,0 +1,22 @@
+.seat-picker {
+    margin: 0 auto;
+  }
+  .seat {
+    width: 40px;
+    height: 40px;
+  }
+  .seat-picker__row:first-child {
+    border: solid red 2px;
+    width: 100px;
+    background-color: red;
+    margin-bottom: 50px;
+  }
+  
+  .seat {
+    border-radius: 4px;
+  }
+  
+  .seat__number {
+    font-size: 20px;
+  }
+  
