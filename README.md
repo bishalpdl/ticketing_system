@@ -19,7 +19,7 @@ Create .env File and give relevant values(check email for .env & copy and paste)
 > npm install
 
 
-> cd backend
+> cd database
 >
 If you want to start fresh every time: 
 > sequelize db:drop
