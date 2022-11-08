@@ -21,6 +21,7 @@ Create .env File and give relevant values(check email for .env & copy and paste)
 If you want to start fresh every time: 
 > sequelize db:drop
 
+cd backend
 Creating, Migrating and Seeding DB:
 > sequelize db:create
 > sequelize db:migrate
