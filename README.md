@@ -14,7 +14,7 @@ clone the git reop
 
 > cd backdend
 
-Create .env File and give relevant values(check email for .env & copy and paste)
+<h2>Create .env File  in backend and give relevant values(check email for .env & copy and paste)</h2>
 
 > npm install
 
