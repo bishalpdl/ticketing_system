@@ -1,4 +1,4 @@
-# Generic Booking Site:
+# Generic Ticket Booking Site:
 ## Introduction:
 <div>Post a ticket. Any type of ticket e.g. Cinema hall, bus tickets, Zoo Ticket ....</div>
 <div>Few presets are included e.g. Bus, Cinema Hall & Micro Bus having options to <b> Select Seats</b></div>
