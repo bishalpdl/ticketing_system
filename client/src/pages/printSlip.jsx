@@ -68,7 +68,8 @@ const PrintSlip = () => {
                             <h5 className="card-subtitle mb-2 text-primary">State: {getStatus(data.bookedTicket.status)}</h5>
                             <h6 className="card-subtitle mb-2 text">Price: {data.bookedTicket.Ticket.price}</h6>
                             <h6 className="card-subtitle mb-2 text">Agency: {data.bookedTicket.Ticket.agency}</h6>
-                            <h6 className="card-subtitle mb-2 text">Booked For: {data.bookedTicket.date}</h6>
+                            <h6 className="card-subtitle mb-2 text">Booked For Date: {data.bookedTicket.date}</h6>
+                            <h6 className="card-subtitle mb-2 text">Time: {data.bookedTicket.time}</h6>
                             <h6 className="card-subtitle mb-2 text">Booking Id: {data.bookedTicket.uuid}</h6>
                             
                             { data.bookedTicket.seatNo &&  <h6 className="card-subtitle mb-2 text">Seat No: {data.bookedTicket.seatNo}</h6>}
