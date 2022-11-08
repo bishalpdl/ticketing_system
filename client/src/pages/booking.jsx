@@ -135,6 +135,7 @@ const Booking = () => {
                         <h5 className="card-title">Title: {data.title}</h5>
                         <p className="card-text">{data.description}</p>
                         <p className="card-text">Valid till: {data.valid_till}</p>
+                        <p className="card-text">Time: {data.time}</p>
                     </div>
                 </div>
             </div>    
