@@ -70,6 +70,8 @@ const PrintSlip = () => {
                             <h6 className="card-subtitle mb-2 text">Agency: {data.bookedTicket.Ticket.agency}</h6>
                             <h6 className="card-subtitle mb-2 text">Booked For: {data.bookedTicket.date}</h6>
                             <h6 className="card-subtitle mb-2 text">Booking Id: {data.bookedTicket.uuid}</h6>
+                            
+                            { data.bookedTicket.seatingNo &&  <h6 className="card-subtitle mb-2 text">Booking Id: {data.bookedTicket.uuid}</h6>}
                         </div>
                     </div>
 
